@@ -1,7 +1,7 @@
 package pps_6;
 import java.util.*;
 
-public class PPS_6_1 {
+public class PPS_6_5 {
 
 	public static void main(String[] args) throws Exception{
 		Scanner sc = new Scanner(System.in);
