@@ -7,7 +7,7 @@ public class PPS_6_10 {
 		Scanner sc = new Scanner(System.in);
 		String line = sc.nextLine();
 		
-		HashSet<String> set = new HashSet<String>();
+		HashSet<String> set = new HashSet<String>(); //HashSet is a collection of items where every item is unique
 		
 		String name = "";
 		
