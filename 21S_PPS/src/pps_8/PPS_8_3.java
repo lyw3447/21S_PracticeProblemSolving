@@ -15,7 +15,7 @@ import java.util.*;
  */
 
 public class PPS_8_3 {
-	
+	/*
 	class Solution {
 	    public ListNode reverseList(ListNode head) {
 	        ListNode node = null;
@@ -27,5 +27,5 @@ public class PPS_8_3 {
 	        }
 	        return node;
 	    }
-	}
+	}*/
 }
