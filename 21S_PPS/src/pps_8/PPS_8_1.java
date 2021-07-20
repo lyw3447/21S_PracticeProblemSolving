@@ -1,6 +1,8 @@
 package pps_8;
 import java.util.*;
 
+//https://programmers.co.kr/learn/courses/30/lessons/49995?language=java
+
 public class PPS_8_1 {
 	public static void main(String[] args) throws Exception{
 		int cookie[] = {1, 1, 2, 3}; //3
