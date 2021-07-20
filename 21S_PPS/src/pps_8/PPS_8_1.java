@@ -21,11 +21,9 @@ public class PPS_8_1 {
                     answer = leftSum;
                 }
                 if(leftIdx > 0 && leftSum <= rightSum) {
-                    leftIdx--;
-                    leftSum += cookie[leftIdx];
+                    leftSum += cookie[--leftIdx];
                 }else if(rightIdx < cookie.length-1 && leftSum >= rightSum) {
-                    rightIdx++;
-                    rightSum += cookie[rightIdx];
+                    rightSum += cookie[++rightIdx];
                 }else {
                     break;
                 }
