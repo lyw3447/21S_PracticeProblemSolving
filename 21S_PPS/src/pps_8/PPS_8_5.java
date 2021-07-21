@@ -8,7 +8,7 @@ public class PPS_8_5 {
 		int target = 7;
 		int left = 0;
         int right = nums.length-1;
-		int pivot;
+		int pivot = 0;
 		
 		while(left <= right) {
             pivot = (left+right)/2;
@@ -22,7 +22,7 @@ public class PPS_8_5 {
                 right = pivot-1;
             
 		}
-		if(left > right)
+		if(nums[pivot] != target)
 			System.out.println(left);
 	}
 }
