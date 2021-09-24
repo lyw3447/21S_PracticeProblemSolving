@@ -1,4 +1,4 @@
-package bfsDfs;
+package bfs;
 
 public class W4_bj_2178 {
 
