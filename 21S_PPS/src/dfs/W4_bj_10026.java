@@ -19,7 +19,7 @@ public class W4_bj_10026 {
             map[i] = sc.next().toCharArray();
 
         int[] ans = {0, 0};
-        boolean[][][] visit = new boolean[2][N][N];
+        boolean[][][] visit = new boolean[2][N][N];	//0번째에는 정상인/1번째에는 색맹인
 
         for (int k = 0; k < 2; k++) {
             for (int i = 0; i < N; i++) {
